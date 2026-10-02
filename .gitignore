@@ -1,0 +1,27 @@
+# Allowlist: only the package and its packaging files are published.
+# Everything else in this folder (tests, examples, evidence, assessment, drafts) stays local.
+/*
+!/.gitignore
+!/README.md
+!/pyproject.toml
+!/x402gate/
+
+# Secrets and live configuration — never commit these, wherever they end up
+key
+*.key
+*.pem
+.env
+.env.*
+x402gate.toml
+
+# Runtime data: spend ledger, audit log, sockets
+data/
+run/
+*.jsonl
+*.sock
+
+# Python and editor clutter inside the allowed folders
+__pycache__/
+*.py[cod]
+*.egg-info/
+.DS_Store
