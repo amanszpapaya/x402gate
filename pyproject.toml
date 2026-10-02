@@ -7,6 +7,7 @@ name = "x402gate"
 version = "0.1.0"
 description = "A spending gate for AI agents that pay with x402"
 readme = "README.md"
+license = { text = "MIT" }
 requires-python = ">=3.10"
 dependencies = [
     "x402[httpx,evm,fastapi]>=2.23.0,<3",
@@ -17,6 +18,11 @@ dependencies = [
     "web3",
     "eth-account",
     "tomli; python_version < '3.11'",
+]
+
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
 ]
 
 [project.scripts]

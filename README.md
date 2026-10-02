@@ -130,4 +130,4 @@ Amounts are in the token's smallest unit (for USDC, 10,000 = $0.01). The first f
 
 ## Licence
 
-No licence has been chosen yet. Until one is added, all rights are reserved.
+MIT. See [LICENSE](LICENSE).

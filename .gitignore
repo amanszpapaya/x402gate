@@ -2,6 +2,7 @@
 # Everything else in this folder (tests, examples, evidence, assessment, drafts) stays local.
 /*
 !/.gitignore
+!/LICENSE
 !/README.md
 !/pyproject.toml
 !/x402gate/
